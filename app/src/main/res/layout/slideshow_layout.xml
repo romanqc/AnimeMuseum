@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:id="@+id/imageView_id"
+        android:src="@drawable/bg2"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/totoro_wp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:id="@+id/button_id"
+        android:background="#3F565B"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        />
+
+</LinearLayout>
